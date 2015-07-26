@@ -1,0 +1,2 @@
+from helpers.pipelines import ImagesDownloaderPipeline
+from helpers.pipelines import DeleteEmptyFieldsPipeline

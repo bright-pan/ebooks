@@ -1,0 +1,6 @@
+from helpers.middlewares.proxy import TorProxyMiddleware, AutoChangeTorProxyMiddleware, RetryChangeTorProxyMiddleware
+from helpers.middlewares.referrer import StartUrlReferrerMiddleware
+from helpers.middlewares.retry import RetryRecordMiddleware
+from helpers.middlewares.url import UrlCanonicalizerMiddleware, RelCanonicalMiddleware
+from helpers.middlewares.user_agent import RandomUserAgentMiddleware
+from helpers.middlewares.selenium_downloader import SeleniumDownloaderMiddleware

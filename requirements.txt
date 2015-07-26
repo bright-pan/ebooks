@@ -1,0 +1,7 @@
+scrapy
+scrapylib
+boto
+six
+image
+selenium
+dsgrid
